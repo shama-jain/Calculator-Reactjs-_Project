@@ -17,7 +17,7 @@ function Calculator() {
     setData("");
   };
   return (
-    <>
+    <div>
       <div className="container">
         <div>
           <input placeholder="0" value={data} />
@@ -83,7 +83,7 @@ function Calculator() {
           /
         </button>
       </div>
-    </>
+    </div>
   );
 }
 
